@@ -1,15 +1,23 @@
 package com.example.arbeid
 
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.example.arbeid.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        enableEdgeToEdge()
+
+        /* TODO: Create method for checking if the client user is currently logged */
+        val isUserLogged = true
+
+        if (isUserLogged) {
+            setContentView(R.layout.activity_home)
+        } else {
+            /* TODO: Replace this with the login activity  */
+            setContentView(R.layout.activity_main)
+        }
     }
 }
