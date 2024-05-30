@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "arbeid"
 include(":app")
- 
+include(":backend")
