@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.arbeid"
         minSdk = 21
-        targetSdk = 32
+        targetSdk = 32 /* TODO: Review the targeted SDK version */
         versionCode = 1
         versionName = "1.0"
 
