@@ -1,4 +1,4 @@
-package com.example.arbeid.ui
+package com.example.arbeid.ui.activities
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
