@@ -4,12 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion(34)
+    namespace = "com.example.arbeid"
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.arbeid"
-        minSdkVersion(21)
-        targetSdkVersion(32)
+        minSdk = 21
+        targetSdk = 32 /* TODO: Review the targeted SDK version */
         versionCode = 1
         versionName = "1.0"
 
@@ -28,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    viewBinding {
+        enable = true
     }
 }
 
