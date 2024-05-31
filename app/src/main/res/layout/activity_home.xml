@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:paddingHorizontal="30dp"
+        android:background="#0F1C4D"
+        app:itemIconTint="#FFFFFF"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_navigation" />
 
