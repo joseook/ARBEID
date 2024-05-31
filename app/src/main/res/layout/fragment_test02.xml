@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="This is the 2nd Fragment: \n\nCourses Page"
+        android:textColor="@color/black"
         android:gravity="center" />
 
 </FrameLayout>
