@@ -30,7 +30,8 @@ class HomeActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.home -> replaceFragment(TestFragment01())
                 R.id.courses -> replaceFragment(TestFragment02())
-                else -> replaceFragment(TestFragment02())
+                R.id.create_post -> replaceFragment(TestFragment01())
+                R.id.user_profile -> replaceFragment(TestFragment02())
             }; true
         }
     }
