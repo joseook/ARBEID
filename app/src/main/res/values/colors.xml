@@ -20,4 +20,5 @@
     <!-- TRANSPARENT: -->
     <color name="blue_transparent">#800F1D4E</color>
     <color name="orange_transparent">#80EF4706</color>
+    <color name="white_transparent">#38FFFFFF</color>
 </resources>
