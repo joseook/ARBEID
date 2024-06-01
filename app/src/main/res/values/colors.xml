@@ -2,15 +2,13 @@
 <resources>
     <!-- PRIMARY: -->
     <color name="blue">#FF0F1C4D</color>
-    <color name="red">#FFFC0A0A</color>
     <color name="orange">#FFEF4706</color>
-    <color name="yellow">#FFEE9E02</color>
 
     <!-- SECONDARY: -->
     <color name="dark_blue">#020027</color>
     <color name="light_blue">#395094</color>
-    <color name="blue_transparent">#800F1D4E</color>
-    <color name="orange_transparent">#80EF4706</color>
+    <color name="red">#FFFC0A0A</color>
+    <color name="yellow">#FFEE9E02</color>
 
     <!-- NEUTRAL: -->
     <color name="black">#FF000000</color>
@@ -18,4 +16,9 @@
     <color name="grey">#66E8E8E8</color> <!-- Will start with "#FF..." outside of the Register activity -->
     <color name="light_grey">#CCE2E2E2</color> <!-- Will start with "#FF..." outside of the Register activity -->
     <color name="white">#FFFFFFFF</color>
+
+    <!-- TRANSPARENT: -->
+    <color name="blue_transparent">#800F1D4E</color>
+    <color name="orange_transparent">#80EF4706</color>
+    <color name="white_transparent">#38FFFFFF</color>
 </resources>

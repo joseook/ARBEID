@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.Arbeid" parent="Base.Theme.Arbeid" />
+
+    <style name="Theme.Arbeid.ActiveIndicator" parent="Theme.Arbeid">
+        <item name="android:width">50dp</item>
+        <item name="android:height">50dp</item>
+        <item name="marginHorizontal">@dimen/m3_bottom_nav_item_active_indicator_margin_horizontal</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator</item>
+        <item name="android:color">@color/white_transparent</item>
+    </style>
 </resources>
