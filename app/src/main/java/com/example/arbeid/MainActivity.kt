@@ -15,7 +15,9 @@ class MainActivity : AppCompatActivity() {
 
         /* TODO: Create method for checking if the client user is currently logged */
         val isUserLogged = true
-
+        /*
+        * adasdasdasda
+        * */
         if (isUserLogged) {
             Intent(applicationContext, HomeActivity::class.java).also {
                 startActivity(it)
