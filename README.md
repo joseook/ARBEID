@@ -24,7 +24,7 @@ plaintext
 app/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/example/marketplace/   # Código fonte Kotlin do app
+│   │   ├── java/com/example/arbeid/   # Código fonte Kotlin do app
 │   │   │   ├── ui/                         # Componentes da UI
 │   │   │   ├── model/                      # Modelos de dados
 │   │   │   ├── viewmodel/                  # Lógica de interface (ViewModel)
@@ -36,7 +36,7 @@ app/
 │   │   │   └── drawable/                   # Recursos gráficos
 │   │   └── AndroidManifest.xml             # Manifesto do Android
 │   └── test/
-│       ├── java/com/example/marketplace/   # Testes unitários
+│       ├── java/com/example/arbeid/   # Testes unitários
 │       └── resources/                      # Recursos de teste
 ├── build.gradle                            # Script de build do Gradle
 
@@ -47,7 +47,7 @@ plaintext
 backend/
 ├── src/
 │   ├── main/
-│   │   ├── kotlin/com/example/marketplace/ # Código fonte Kotlin do back-end
+│   │   ├── kotlin/com/example/arbeid/ # Código fonte Kotlin do back-end
 │   │   │   ├── controller/                 # Controladores REST
 │   │   │   ├── service/                    # Serviços de negócios
 │   │   │   ├── model/                      # Modelos de dados
@@ -55,7 +55,7 @@ backend/
 │   │   │   └── config/                     # Configurações do Spring Boot
 │   │   └── resources/                      # Recursos do Spring Boot
 │   └── test/
-│       ├── kotlin/com/example/marketplace/ # Testes unitários
+│       ├── kotlin/com/example/arbeid/ # Testes unitários
 │       └── resources/                      # Recursos de teste
 ├── build.gradle                            # Script de build do Gradle
 
@@ -67,7 +67,7 @@ backend/
 1. **Clone o repositório e navegue para a branch correta**:
    sh
    git clone https://github.com/usuario/projeto-marketplace.git
-   cd projeto-marketplace
+   cd arbeid
    git checkout front-end  # Ou back-end, dependendo da sua equipe
 
 
