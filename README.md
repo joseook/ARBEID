@@ -122,6 +122,10 @@ backend/
 
 Para mais informações ou para relatar problemas, entre em contato com [joseok.business@gmail.com](joseook:joseok.business@.com).
 
+## Nota 
+
+Também temos a versão web da aplicação caso esteja interessado: [Arbeid versão WEB](https://github.com/joseook/ARBEID-WEB)
+
 ---
 
 ### Nota
