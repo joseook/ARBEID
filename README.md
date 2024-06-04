@@ -122,11 +122,8 @@ backend/
 
 Para mais informações ou para relatar problemas, entre em contato com [joseok.business@gmail.com](joseook:joseok.business@.com).
 
-## Nota 
-
-Também temos a versão web da aplicação caso esteja interessado: [Arbeid versão WEB](https://github.com/joseook/ARBEID-WEB)
-
 ---
 
 ### Nota
 - Aqui vai um repositorio do github sobre commits que vai ajudar nas construções de commits semanticos para melhor experiencia: [Padrão de commits](https://github.com/iuricode/padroes-de-commits).
+- Também temos a versão web da aplicação caso esteja interessado em verificar: [Arbeid versão WEB](https://github.com/joseook/ARBEID-WEB)
